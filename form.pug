@@ -1,15 +1,28 @@
 doctype html
+<<<<<<< HEAD
 html(lang="ja")
+=======
+html(lang="jp")
+>>>>>>> 9bc3ddb768786ffa081e32c24daf1500f4353634
   head
     meta(charset="UTF-8")
     title アンケート
   body
     h1 どちらが食べたいですか？
     form(method="post" action=path)
+<<<<<<< HEAD
       span 名前:
       input(type="text" name="name")
       input(type="radio" name="favorite" value=firstItem)
       span #{firstItem}
       input(type="radio" name="favorite" value=secondItem)
       span #{secondItem}
+=======
+      span 名前: 
+      input(type="text" name="name")
+      input(type="radio" name="favorite" value=firstItem)
+      span #{firstItem} 
+      input(type="radio" name="favorite" value=secondItem)
+      span #{secondItem} 
+>>>>>>> 9bc3ddb768786ffa081e32c24daf1500f4353634
       button(type="submit") 投稿

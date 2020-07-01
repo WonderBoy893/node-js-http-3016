@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "node-js-http",
   "version": "1.0.0",
   "description": "",
@@ -14,4 +15,18 @@
   "engines": {
     "node": "~10"
   }
+=======
+    "name": "node-js-http",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "pug": "^2.0.0-rc.4"
+    }
+>>>>>>> 9bc3ddb768786ffa081e32c24daf1500f4353634
 }
